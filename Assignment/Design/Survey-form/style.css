@@ -1,0 +1,39 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+.main{
+    margin: 10px;
+    padding: 20px 20px 0px 20px;
+    border : 2px solid black;
+    width : 700px;
+    height: 600px;
+    justify-content: center;
+    background-color: #8d9ef5;
+}
+.info{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(231, 231, 247);
+    border-radius: 5px;
+}
+.text,.date,.select{
+  padding: 10px;
+  margin: 5px 0 12px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.select{
+    width: 150px;
+}
+.btn{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    background-color: orange;
+}
